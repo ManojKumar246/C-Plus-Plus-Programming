@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+ 
+using namespace std;
+
+int main(int argc, char** argv)
+{
+    string s;
+    int n;
+    cin>>s>>n;
+    
+    reverse(s.end()-n,s.end());
+    cout<<s;
+
+
+}
